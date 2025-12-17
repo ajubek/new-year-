@@ -1,0 +1,205 @@
+#hero-header {
+  .position {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    .header {
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      animation: hed 2s ease-in-out alternate;
+      .ait {
+        display: flex;
+        gap: 40px;
+        a {
+          color: white;
+        }
+      }
+      .hedbut {
+        display: flex;
+        gap: 30px;
+        button {
+          background: #f0e714;
+          padding: 5px 15px;
+          border-radius: 15px;
+          cursor: pointer;
+          animation-name: bbc;
+          animation-duration: 15s;
+        }
+      }
+    }
+
+    .section {
+      padding-left: 30px;
+      padding-right: 30px;
+      .text {
+        display: flex;
+        padding-top: 50px;
+        .df {
+             animation: h1 cubic-bezier(0.895, 0.03, 0.685, 0.22) ease-in-out alternate;
+          .hp {
+            h1 {
+              font-weight: 700;
+              font-size: 60px;
+              line-height: 66px;
+              letter-spacing: 1%;
+              color: white;
+              cursor: pointer;
+            }
+            p {
+              font-size: 17px;
+              line-height: 26px;
+              width: 350px;
+              padding-top: 20px;
+              padding-bottom: 30px;
+              color: white;
+              animation: h1 2s ease-in-out alternate;
+            }
+          }
+          .button {
+            display: flex;
+            gap: 90px;
+            padding-bottom: 20px;
+            align-items: center;
+            button {
+              background: #f0e714;
+              border-radius: 20px;
+              padding: 7px 20px;
+              align-items: center;
+              font-size: 15px;
+              cursor: pointer;
+              animation: h1 2s ease-in-out alternate;
+            }
+            h1 {
+              align-items: center;
+              color: white;
+              animation: h1 2s ease-in-out alternate;
+            }
+          }
+          .prusent {
+            display: flex;
+            padding-top: 40px;
+            gap: 70px;
+            animation: h1 2s ease-in-out alternate;
+
+            h1 {
+              font-size: 35px;
+              color: white;
+            }
+            h2 {
+              color: white;
+              font-size: 8px;
+            }
+          }
+        }
+        .imgs {
+          .img {
+            position: relative;
+            animation: 3s imo ease-in-out alternate;
+          }
+
+          .img1 {
+            position: absolute;
+            right: 520px;
+            top: 330px;
+            width: 140px;
+            animation: im 2.2s ease-in-out alternate;
+          }
+        }
+      }
+    }
+    .markets {
+      display: flex;
+      align-items: center;
+      padding-left: 30px;
+      padding-right: 30px;
+      gap: 70px;
+      width: 230px;
+      padding-top: 150px;
+      cursor: pointer;
+      animation: but 5s ease-in-out alternate;
+    }
+  }
+}
+
+@keyframes myAnimation {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+
+@keyframes bbc {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes im {
+  30% {
+    transform: translateX(100px);
+  }
+  50% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateX(100px);
+  }
+  0% {
+    transform: translateY(-1000px);
+  }
+}
+
+@keyframes but {
+  0% {
+    transform: translateX(-100px);
+  }
+}
+
+
+@keyframes imo{
+  0%{
+    transform: translateX(100px);
+  }
+}
+
+
+@keyframes hed{
+  0%{
+    transform: translateY(-100px);
+  }
+}
+
+@keyframes h1 {
+  0%{
+    transform: translateX(-100px);
+  }
+}
