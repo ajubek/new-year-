@@ -9,3 +9,7 @@
 @import './section7.css';
 @import './footer.css';
 @import './reset.css';
+
+body{
+    background: rgb(216, 213, 213);
+}
