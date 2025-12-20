@@ -1,8 +1,13 @@
+@import "./style2.css";
+#section3{
+  position: relative;
+  bottom: 250px;
+}
 .section3 {
   display: flex;
   padding-top: 50px;
   align-items: center;
-  padding-left: 150px;
+  gap: 70px;
   .a {
     .b {
       button {
