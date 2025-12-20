@@ -1,4 +1,9 @@
 #hero-header {
+       background-image: url("../any/Aidai/Jyldyzbek-imgs/Rectangle\ 1644.png");
+       .fon{
+               background-image: url("/any/Aidai/Jyldyzbek-imgs/BAground.png");
+
+       }
   .position {
     top: 0;
     left: 0;
@@ -121,6 +126,7 @@
       padding-top: 150px;
       cursor: pointer;
       animation: but 5s ease-in-out alternate;
+      padding-bottom: 150px;
     }
   }
 }
