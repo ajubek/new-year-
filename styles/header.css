@@ -126,6 +126,7 @@
       padding-top: 150px;
       cursor: pointer;
       animation: but 5s ease-in-out alternate;
+      padding-bottom: 150px;
     }
   }
 }
